@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>personal detalis</title>
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+<h1>About myself</h1>
+<h3>enter your name</h3>
+<input id="name"type="text">
+<button type= "button" onclick="EnterName()">submit</button>
+<p id="demo"></p>
+<script>
+	function EnterName()
+	{
+		let user=document.getElementByID("name").value;
+		document.getElementByID("demo").innerHTML="welcome "+user;
+	}
+</script>
+</body>
+</html>
